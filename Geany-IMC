@@ -1,0 +1,18 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+#
+# pytonindicedemasse.py
+#
+# Copyright 2014 Ordono Loïc
+#
+print (" ---> Debut du programme.")
+#Les entrees du programme
+prenom = input("Quel est ton prenom?")
+poids = int(input("Quelle est ton poids? "))
+taille = int(input("Quelle est ta taille en centimètre? "))
+#le calcul
+IMC= poids/taille**2
+#les sorties du programme
+print ("Bonjour "+prenom+" .")
+print ("Ton indice de masse corporelle est" ,IMC, "imc.")
+print ("---> Fin du programme.")
